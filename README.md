@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in Tcl related to the handling of return values from procedures. The bug.tcl file contains the buggy code, while bugSolution.tcl provides a corrected version. The issue stems from how the return value of a proc is interpreted when used within a command substitution versus directly.
